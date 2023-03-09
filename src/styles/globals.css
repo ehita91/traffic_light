@@ -1,0 +1,54 @@
+body{
+    background-size: cover;
+    background-image: url("https://www.shutterstock.com/image-vector/old-city-street-hand-drawn-600w-613112603.jpg");
+}
+
+.bg-pole{
+    background-color: black;
+    width: 30px;
+    margin: auto;
+    height: 80px;
+    padding-bottom: 10px;
+}
+
+.bg-trafficlight{
+    background-color: black;
+    width: 100px;
+    height: 320px;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.light{
+    border-radius: 999px;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.onyellow{
+    box-shadow: 0 0 30px 30px yellow;
+    transition: 2s;
+}
+
+.onred{
+    box-shadow: 0 0 30px 30px red;
+}
+
+.ongreen{
+    box-shadow: 0 0 30px 30px green;
+}
